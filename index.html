@@ -1,78 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Felipe Faúndez CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Felipe Faúndez</title>
+    <script src="https://kit.fontawesome.com/68cd32f80a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
+
 <body>
-    <header>
-        <h1 class="title">Curriculum Vitae</h1>
-        <img src="./assets/imagen/fotoperfil.jpeg" width="400" height="400" alt="Felipe mirando hacia el frente con brazos cruzados">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="text-dark display-1 fw-bold my-5">
+                    Mi Curriculum <br> Vitae
+                </h1>
+                <p class="text-black my-5">
+                    En esta página, se encontrará toda la información relacionada a mi persona. <br>Tanto como la experiencia laboral, estudios como tambien mis pasatiempos :D.
+                </p>
+                <div class="mb-5 pb-5">
+                    <button class="git btn btn-dark btn-info text-light me-4">GitHub</button>
+                    <button class="link btn btn-dark btn-info text-light">Linkedin</button>
+                </div>
+            </div>
+        </div>
     </header>
-    <section>
-        <h2>Felipe Faúndez</h2>
-        <h3><u>Datos personales</u></h3>
-        <ul>
-            <li>E-mail: felipefaundez.vasquez@gmail.com</li>
-            <li>Teléfono: +56989836487</li>
-            <li>Estado civil: Soltero</li>
-            <li>Fecha de nacimiento: 08/04/1996</li>
-            <li>Nacionalidad: Chilena</li>
-            <li>Educación: Tecnólogo informático biomédico</li>
-        </ul>
+
+
+    <section id="Acerca-de-mi" class="container text-center my-5">
+
+
+        <h2 class="display-3 fw-bold my-4">Experiencia laboral</h2>
+
+        <p class="my-4">
+            En esta sección se encontrará toda mi carrera laboral obtenida hasta ahora.
+        </p>
+
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fas fa-house-medical fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Hospital Exequiel Gonzalez cortes</h3>
+                <p class="my-3">
+                    Mis labores fueron ayudar en la mesa de ayuda del hospital. Ayudando en la migración de dominio de los computadores,
+                    falicitador en la ficha clínica que se estaba implementando en ese entonces en el hospital, resolución de problemas varios a nivel de hardware y software
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fas fa-desktop fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Hospital Barros Luco</h3>
+                <p class="my-3">
+                    Me desempeñe en el puesto nivel 2 de la mesa de ayuda del área DGTI. Resolución de problemas tanto nivel hardware como software a través de herramientas remotas,
+                    también tuve la labor de categorizar los tickets en la plataforma OTRS. También acompañé en la implementación del sistema de mesa de ayuda en las diferentes áreas del hospital.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fas fa-circle-user fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Empresa "Reservo"</h3>
+                <p class="my-3">
+                    Actualmente mis labores son de Customer Success Analyst en la empresa, brinando apoyo en etapas como Onboarding de nuevos clientes, mejoras de flujos de trabajo,
+                    acompañamiento y seguimiento en el adaptamiendo del sistema en los clientes. Tambien dentro de mis labores realizo capacitación a clientes que presenten un grado
+                    de complejidad elevada en la plataforma
+                </p>
+            </div>
+        </div>
     </section>
-    <section>
-        <h3><u>Objetivo profesional</u></h3>
-        <p>Proponer ideas y desarrollar soluciones para el área de salud mediante el uso de sistemas informáticos, software y habilidades personales. Además, a través de herramientas de inteligencia de negocios y el correcto uso de la información, elaborar información clínica ayudando en la toma de decisión en contexto de la salud. También dependiendo de las necesidades, oportunidades y requerimientos seré capaz de realizar proyectos para contribuir al desarrollo del área clínica.</p>
+
+
+    <section id="Mis-trabajos" class="my-5 p-5 bg-dark">
+
+        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis Pasatiempos</h2>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/bicicleta.JPG)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ciclista</h5>
+                        <p class="card-text">
+                            Me encanta rutear en dos ruedas! soy un aficcionado en el ciclismo. Mi mejor panorama un fin de semana
+                            es rutear por el cajón del maipo o desafiarme e ir a lugares en donde se respire la naturalza al 100%.
+                            Actualmente cuento con una bicicleta de ruta, más adelante me encantaria tener una gravel para poder pedalear
+                            La carretera austral.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/bajista.JPG)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Bajista</h5>
+                        <p class="card-text">
+                            Soy un bajista autodidacta. Actualmente formo parte de la banda llamada Suvliminal. Toco de todos los generos posibles, no me encasillo en uno. 
+                            Sin embargo lo que mas me apasiona es tocar géneros como metal, rock y jazz. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/trekking.JPG)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Trekking</h5>
+                        <p class="card-text">
+                            Sin lugar a duda, la naturaleza es algo que me cautiva y me impulsa a explorar. Es por eso que me encanta realizar trekking y senderismos,
+                            llegar a lugares donde un auto o vehículo no puede llegar, encontrarme con vistas facinantes de la montañas y disfrutar del aire limpio.
+                            Mis fin de semanas siempre se encuentra el panorama de salir a rutear o de realizar Trekking! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
-    <section>
-        <h3><u>Experiencia laboral</u></h3>
-        <table border="1">
-            <tr>
-              <th>Lugar</th>
-              <th>Periodo</th>
-              <th>Funciones</th>
-            </tr>
-            <tr>
-              <td>Hospital Exequiel Gonzáles Cortés</td>
-              <td>Enero 2019- Febrero 2019</td>
-              <td>Fui parte del equipo de la Unidad de las tecnologías y de la comunicación (TIC). Se me asignaron tareas tales como migración de computadores a nuevo dominio, revisión de licitación, soporte en mesa de ayuda del hospital, levantamiento de información de las unidades.</td>
-            </tr>
-            <tr>
-              <td>Hospital Barros Luco Trudeau </td>
-              <td>Octubre 2020 - Sept 2021</td>
-              <td>Formé parte del equipo del Departamento de Gestión en Tecnologías de la Información en donde realicé la implementación del sistema OTRS para la Mesa de ayuda en las unidades de atención cerrada del hospital, capacitando al personal y a su vez documentando el proyecto.</td>
-            </tr>
-            <tr>
-                <td>Reservo</td>
-                <td>Sep 2021 - Actualidad</td>
-                <td>Formo parte del área Customer Success de la empresa Reservo. Encargado del onboarding de nuevos clientes que contratar la plataforma, acompañándoles en su experiencia en el uso del sistema y ayudandoles a que puedan sacar el máximo provecho.</td>
-            </tr>
-          </table>
+
+
+
+    <section id="Contacto" class="container my-5">
+
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+
+        <p class="text-center my-4 d-none d-md-block">Si crees que mi perfil y experiencia laboral pueda constribuir a tu búsqueda de puesto de trabajo, no dudes en escribirme.
+            Porfavor completa el formulario que se encuentra a continuación y podemos ponernos en contacto!
+        </p>
+
+        <form>
+
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-end">
+                <button class="btn btn-info text-light">Enviar</button>
+            </div>
+
+
+
+        </form>
+
     </section>
-    <section>
-        <h3><u>Habilidades</u></h3>
-        <ol>
-            <li>Trabajar en equipo</li>
-            <li>Rápido aprendizaje</li>
-            <li>Gestión del tiempo</li>
-            <li>Proactivo</li>
-        </ol>
-    </section>
-    <section> 
-        <h3><u>Pasatiempos</u></h3>
-        <ul>
-            <li>Ciclismo</li>
-            <li>Músico autodidacta</li>
-            <li>Apasionado por la literatura de terrror, suspenso y ciencia ficcion</li>
-        </ul>
-    </section>
-    <footer>
-        <p>Fuente: Felipe Faúndez</p>
-        <p> Volver a <a href="./portafolio.html">portafolio</a></p>
+
+
+
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Felipe Faúndez, 2023. Todos los derechos reservados.</p>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
